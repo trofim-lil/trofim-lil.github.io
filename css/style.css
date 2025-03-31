@@ -315,7 +315,8 @@ header {
 }
 
 .hero__container {
-    padding-top: 292px;
+    height: 100%;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
