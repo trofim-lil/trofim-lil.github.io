@@ -315,7 +315,9 @@
     }
 
     .hero__container {
-        padding-top: 127px;
+        padding-top: 0;
+        justify-content: center;
+        height: 100%;
     }
 
     .hero__title {
