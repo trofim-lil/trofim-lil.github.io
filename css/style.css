@@ -26,8 +26,8 @@ a {
   
   @font-face {
     font-family: 'Inter';
-    src: local('Inter-Medium') ,url('../fonts/Inter-Medium.woff2') format('woff2'),
-    url('../fonts/Inter-Medium.woff') format('woff');
+    src: local('Inter-Medium') ,url('/fonts/Inter-Medium.woff2') format('woff2'),
+    url('/fonts/Inter-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -35,8 +35,8 @@ a {
 
 @font-face {
     font-family: 'Inter';
-    src: local('Inter-Regular') ,url('../fonts/Inter-Regular.woff2') format('woff2'),
-    url('../fonts/Inter-Regular.woff') format('woff');
+    src: local('Inter-Regular') ,url('/fonts/Inter-Regular.woff2') format('woff2'),
+    url('/fonts/Inter-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -44,8 +44,8 @@ a {
 
 @font-face {
     font-family: 'Inter';
-    src: local('Inter-SemiBold') ,url('../fonts/Inter-SemiBold.woff2') format('woff2'),
-    url('../fonts/Inter-SemiBold.woff') format('woff');
+    src: local('Inter-SemiBold') ,url('/fonts/Inter-SemiBold.woff2') format('woff2'),
+    url('/fonts/Inter-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -306,7 +306,7 @@ header {
 /* hero */
 
 .hero {
-    background-image: url('../img/hero-large.jpg');
+    background-image: url('/img/hero-large.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
