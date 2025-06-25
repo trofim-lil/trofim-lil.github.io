@@ -154,19 +154,20 @@
                 justify-content: flex-start;
         background-color: white;
         width: 100%;
-        top: 24px;
-        left: -100%;
+        top: 0;
+        left: 0;
         padding-left: 24px;
         padding-bottom: 30px;
-        padding-top: 54px;
+        padding-top: 78px;
         gap: 40px;
         -webkit-transition: -webkit-transform 0.3s ease-in-out;
         transition: -webkit-transform 0.3s ease-in-out;
         -o-transition: transform 0.3s ease-in-out;
         transition: transform 0.3s ease-in-out;
         transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+        transform: translateY(-100vh); /* Сдвиньте меню вверх */
     }
-
+    
     .header__list {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -174,11 +175,11 @@
                 flex-direction: column;
         gap: 16px;
     }
-
+    
     .header.open .header__center {
-        -webkit-transform: translateX(100%);
-            -ms-transform: translateX(100%);
-                transform: translateX(100%);
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
     }
 
     .hero {
