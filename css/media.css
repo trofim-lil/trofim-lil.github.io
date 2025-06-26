@@ -371,11 +371,7 @@
 
     .landing__top {
         padding: 30px 30px 0 30px;
-        max-width: 280px;
-    }
-
-    .landing__img {
-        max-height: 160px;
+        max-width: 100%;
     }
 
     .landing__descr {
