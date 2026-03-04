@@ -459,6 +459,10 @@ header {
             justify-content: center;
 }
 
+.hard__item:nth-last-child(-n+3) {
+    display: none;
+} 
+
 /* projects */
 
 .projects {
@@ -473,7 +477,17 @@ header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 32px;
+}
+
+.projects__middle {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects__middle .landing__title {
+    margin-bottom: 10px;
 }
 
 .projects__title {
