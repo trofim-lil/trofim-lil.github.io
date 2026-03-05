@@ -661,6 +661,12 @@ header {
 
 .landing__link svg {
     margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.landing__link:hover svg {
+    transform: translateY(2px);
+    /* transition: transform 0.2s ease-in-out; */
 }
 
 .landing__link:focus-visible {
@@ -679,7 +685,8 @@ header {
 /* soft */
 
 .soft {
-    margin-bottom: 38px;
+    /* margin-bottom: 38px; */
+    margin-bottom: 125px;
 }
 
 .soft__title {

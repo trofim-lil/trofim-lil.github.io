@@ -57,7 +57,8 @@
     }
 
     .soft {
-        margin-bottom: 43px;
+        /* margin-bottom: 43px; */
+        margin-bottom: 125px;
     }
 
     .soft__list {
@@ -388,6 +389,11 @@
 
     .projects__arrows {
         display: none;
+    }
+
+    /* !!! */
+    .soft {
+        margin-bottom: 101px;
     }
 
     .soft__list {
