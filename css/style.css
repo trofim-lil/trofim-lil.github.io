@@ -463,6 +463,10 @@ header {
     display: none;
 } 
 
+.hard__item svg {
+    height: 50px;
+}
+
 /* projects */
 
 .projects {
@@ -495,6 +499,7 @@ header {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    max-width: calc(100% - 88px);
 }
 
 .projects__arrows {

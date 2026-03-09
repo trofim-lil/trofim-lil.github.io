@@ -340,6 +340,10 @@
         margin-bottom: 101px;
     }
 
+    .projects__title {
+        max-width: 100%;
+    }
+
     .swiper {
         width: 100%;
         height: auto;
