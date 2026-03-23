@@ -477,6 +477,27 @@ header {
     position: relative;
 }
 
+.project_1 {
+    margin-bottom: 50px;
+}
+
+.project_1 .projects__middle {
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+
+.project_1 .projects__middle img {
+    width: 65%;
+}
+
+.project_1 .projects__middle .landing__descr {
+    text-align: left;
+}
+
+.project_left {
+    flex-direction: column;
+}
+
 .projects__top {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;

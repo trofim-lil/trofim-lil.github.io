@@ -214,6 +214,18 @@
                 column-gap: 40px;
     }
 
+    .project_1 .projects__middle {
+        flex-direction: column;
+    }
+
+    .project_1 .projects__middle img {
+        width: 100%;
+    }
+
+    .project_left {
+        gap: 15px;
+    }
+
     .projects__item {
         min-width: 348px;
         min-height: 574px;
